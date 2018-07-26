@@ -27,7 +27,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('css/yo.jpg');
+    background-image: url('yo.jpg');
     min-height: 100%;
     filter: grayscale(.8);
 }
