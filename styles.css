@@ -1,0 +1,33 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(252, 251, 247);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: all .4s;
+
+}
+
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('css/yo.jpg');
+    min-height: 100%;
+    filter: grayscale(.8);
+}
