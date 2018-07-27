@@ -7,6 +7,10 @@ h5,
 h6 {
     font-family: "Montserrat", sans-serif;
     background-color: rgb(252, 251, 247);
+    
+}
+.border{
+    border: 1px solid red;
 }
 
 a {
@@ -17,14 +21,10 @@ a:hover {
     transition: all .4s;
 
 }
-
-
 .w3-row-padding img {
     margin-top: 22px;
     margin-bottom: 12px;
-  
 }
-
 
 .bgimg {
     background-position: center;
@@ -34,3 +34,88 @@ a:hover {
     min-height: 100%;
     filter: grayscale(.8);
 }
+.z{
+    z-index:2;
+}
+.sidebar{
+    width:30%;
+}
+.pageContent{
+    margin-left:30%;
+}
+.header{
+    padding:128px 16px
+}
+.img1{
+    display:block;
+    width:60%;
+    margin:auto; 
+    filter: grayscale(.8);
+}
+.img2{
+    filter: grayscale(.8);
+    width="1000"
+}
+.photos{
+    margin:0 -16px;
+}
+.photo{
+    width:100%;
+    border:1px solid;
+    margin-bottom:40px;
+}
+.dise{
+    width:80%;
+  
+}
+.contact{
+    margin-bottom:64px
+}
+hr{
+   
+    border: 1px solid lightgray;
+}
+
+.first-hr{
+    margin-bottom:2.8rem;  
+   
+}
+.lasthr{
+       margin-bottom:4rem;  
+       margin-top:3.2rem;
+}
+
+h1{
+    font-size: 3rem;
+  
+}
+h2{
+    margin-top: 50px;
+}
+@media (min-width: 550px) {
+    h1 {
+        font-size: 5rem;
+       
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

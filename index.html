@@ -13,40 +13,42 @@
 
 
 <body>
-    <div class="w3-top" style="z-index:2">
+    <div class="w3-top z" >
         <div class="w3-row w3-black">
-            <div class="w3-col s3 ">
+            <div class="w3-col s6 m3">
                 <a class=" w3-button w3-block w3-hover-brown w3-center" href="#">
                     HOME
                 </a>
             </div>
-            <div class="w3-col s3">
+            <div class="w3-col s6 m3">
                 <a class="w3-button w3-block  w3-hover-indigo w3-center" href="#portfolio">
-                    Portfolio
+                    
+                    PORTFOLIO
                 </a>
             </div>
-            <div class="w3-col s3">
+            <div class="w3-col s6 m3">
                 <a class="w3-button w3-block w3-hover-amber w3-center" href="#about">
                     ABOUT
                 </a>
             </div>
-            <div class="w3-col s3">
+            <div class="w3-col s6 m3">
                 <a class="w3-button w3-block w3-hover-light-blue w3-center" href="#contact">
-                    Contact
+                    
+                    CONTACT
                 </a>
             </div>
         </div>
     </div>
     <!-- Sidebar with image-->
-    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small sidebar" >
         <div class="bgimg">
         </div>
     </nav>
     <!-- Page Content -->
-    <div class="w3-main w3-padding-large" style="margin-left:30%">
+    <div class="w3-main w3-padding-large pageContent" >
         <!-- Header -->
-        <header class="w3-container w3-center" id="home" style="padding:128px 16px">
-            <h1 class="w3-jumbo">
+        <header class="w3-container w3-center header" id="home" >
+            <h1 class="w3-center">
                 <b>
                     Rafa Escalante
                 </b>
@@ -54,9 +56,8 @@
             <p>
                 Developer and Web Designer.
             </p>
-            <img class="w3-image w3-hide-large w3-hide-small w3-round" src="css/yo.jpg" style="display:block;width:60%;margin:auto; filter: grayscale(.8);">
-            <img class="w3-image w3-hide-large w3-hide-medium w3-round" height="1333" src="css/yo.jpg" style="filter: grayscale(.8);"
-                width="1000">
+           <img class="w3-image w3-hide-large w3-hide-small w3-round img1" src="css/yo.jpg" > 
+           <img class="w3-image w3-hide-large w3-hide-medium w3-round img2" src="css/yo.jpg" >
            
         </header>
         <!-- Portfolio Section -->
@@ -66,24 +67,17 @@
             </h2>
             <hr class="w3-opacity">
             <!-- Grid for photos -->
-            <div class="w3-row-padding" style="margin:0 -16px;">
+            <div class="w3-row-padding" class="photos">
                 <div class="w3-half">
-                    <img src="img/clone.png" style="width:100%;border:1px solid;margin-bottom:40px;">
-                  
-                    <img src="img/beto.jpg" style="width:100%;border:1px solid;margin-bottom:40px;">
-                   
-                    <img src="img/cotiza.png" style="width:100%;border:1px solid;margin-bottom:40px;">
-                   
-
-
-
-                   
+                    <img src="img/clone.png"class="photo" >
+                    <img src="img/beto.jpg" class="photo">
+                    <img src="img/cotiza.png" class="photo">
                 </div>
                 <div class="w3-half">
-                    <img src="img/mad.png" style="width:100%;border:1px solid;margin-bottom:40px;">
-                    <img src="img/publi.png" style="width:100%;border:1px solid;margin-bottom:40px;">
-                    <img src="img/tarea.jpg" style="width:100%;border:1px solid;margin-bottom:40px;">
-                    <img src="img/react-todo.png" style="width:100%;border:1px solid;">
+                    <img src="img/mad.png" class="photo">
+                    <img src="img/publi.png" class="photo">
+                    <img src="img/tarea.jpg" class="photo">
+                    <img src="img/react-todo.png" class="photo">
                    
                 </div>
                 <!-- End photo grid -->
@@ -92,7 +86,7 @@
           
         </div>
         <!-- About Section -->
-        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+        <div class="w3-content w3-justify w3-text-grey w3-padding-32 w3-center" id="about">
             <h2>
                 About
             </h2>
@@ -164,53 +158,44 @@
                         1+
                     </span>
                     <br> Meetings
-                   
-                    
                 </div>
             </div>
            
-            <hr class="w3-opacity">
-            <div class="w3-row-padding" style="margin:0 -16px">
+            <hr >
+            <div class="w3-row-padding photos ">
                 <div class="w3-hal">
-                    <img src="img/dise_resp.jpg" style="width:80%;margin-left:10%;">
-                 
+                    <img src="img/dise_resp.jpg" class="dise">
                 </div>
-
-                <!-- End photo grid -->
             </div>
-            <!-- End Portfolio Section -->
-          
         </div>
         <!-- Contact Section -->
-        <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+        <div class="w3-padding-32 w3-content w3-text-grey w3-center" id="contact" class="contact">
             <h2>
                 Contact Me
             </h2>
-            <hr class="w3-opacity">
+            <hr class="first-hr">
             <div class="w3-section">
                 <p>
-                    <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right">
+                    <i class="fa fa-map-marker fa-fw w3-xxlarge w3-col s12">
                     </i>
                     Hermosillo Sonora
                 </p>
                 <p>
-                    <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right">
+                    <i class="fa fa-phone fa-fw w3-xxlarge w3-col s12">
                     </i>
                     Phone: 631 188 3978
                 </p>
                 <p>
-                    <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right">
+                    <i class="fa fa-envelope fa-fw w3-xxlarge w3-col s12">
                     </i>
-                    Email: rafaelsemonio@hotmail.com
+                     rafaelsemonio@hotmail.com
                 </p>
             </div>
-            <!-- Google Map
-        <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:300px;margin:36px 0;"></div> -->
-            <hr>
+                       <hr class="lasthr">
             <!-- Footer -->
             <footer class="w3-container w3-padding-12 w3-light-blue w3-center w3-opacity w3-xlarge">
 
-                <a class="w3-margin-16" href="https://www.facebook.com/rafaelsemonio" target="_blank">
+                <a class="w3-margin-16 " href="https://www.facebook.com/rafaelsemonio" target="_blank">
                     <i class="fa fa-facebook-official w3-hover-opacity"></i>
                 </a>
                 <a href="https://twitter.com/rafaelsistemz?lang=es" target="_blank">
@@ -222,7 +207,7 @@
             <!-- END PAGE CONTENT -->
            
         </div>
-        <h1 class="w3-jumbo w3-center w3-opacity">
+        <h1 class="w3-center w3-opacity" >
             <b>
                 Rafa Escalante
             </b>
@@ -230,6 +215,4 @@
        
     </div>
 </body>
-
-
 </html>
