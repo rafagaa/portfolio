@@ -34,7 +34,7 @@ a:hover {
     background-size: cover;
     background-image: url('yo.jpg');
     min-height: 100%;
-    filter: grayscale(.8);
+    filter: grayscale(.6);
   
 }
 .z{
@@ -61,10 +61,10 @@ a:hover {
     display:block;
     width:60%;
     margin:auto; 
-    filter: grayscale(.8);
+    filter: grayscale(.6);
 }
 .img2{
-    filter: grayscale(.8);
+    filter: grayscale(.6);
    
 }
 .photos{
@@ -76,7 +76,9 @@ a:hover {
     margin-bottom:40px;
 }
 .dise{
-    width:80%;
+    width:100%;
+ margin-bottom: -80px;
+ margin-top: 50px;
   
 }
 .contact{
