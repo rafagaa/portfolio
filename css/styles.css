@@ -24,6 +24,7 @@ a:hover {
 .w3-row-padding img {
     margin-top: 22px;
     margin-bottom: 12px;
+   
 }
 
 .bgimg {
@@ -33,18 +34,27 @@ a:hover {
     background-image: url('yo.jpg');
     min-height: 100%;
     filter: grayscale(.8);
+  
 }
 .z{
     z-index:2;
+  
+}
+.j{
+   text-align: center;
+    padding: 0;
+    margin: 0;
 }
 .sidebar{
     width:30%;
 }
 .pageContent{
     margin-left:30%;
+   
 }
 .header{
-    padding:128px 16px
+    padding:128px 16px;
+   
 }
 .img1{
     display:block;
